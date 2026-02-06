@@ -3,7 +3,7 @@ import Card from "./Card";
 
 const Countries=()=>{
     const[Countries, setCountries]=useState([]);
-    const EndPoint="https://xcountries-backend.azurewebsites.net/all";
+    const EndPoint="https://xcountries-backend.labs.crio.do/all";
 
     useEffect(()=>{
         const fetchData=async()=>{
